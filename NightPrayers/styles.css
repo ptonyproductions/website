@@ -1,0 +1,106 @@
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+body {
+    background-color: blanchedalmond;
+    transition: ease;
+    transition-duration: 10s;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+table, tr, td, th{
+    height: 100%;
+}
+
+table {
+    max-width: 650px;
+}
+
+tr div{
+    border:  5px solid transparent;
+    border-radius: 5px;
+}
+
+tr div:hover{
+    border-color: whitesmoke;
+}
+
+
+td div {
+    background-color: rgba(200, 200, 200, 0.5);
+    height: 100%;
+}
+
+.citation {
+    color: darkred;
+    font-style: italic;
+
+}
+
+th.leader {
+    background-color: rgba(183, 30, 22, 0.5);
+}
+
+th.leader div::before {
+    content: "Leader";
+    /* background-color: blue; */
+    height: 100%;
+}
+
+th.reader {
+    background-color: rgba(27, 15, 204, 0.5);
+}
+
+th.reader div::before {
+    content: "Reader";
+    /* background-color: blue; */
+    height: 100%;
+}
+
+th.choir-a {
+    background-color: rgba(244, 175, 0, 0.5);
+}
+
+th.choir-a div::before {
+    content: "Choir A";
+    /* background-color: blue; */
+    height: 100%;
+}
+
+th.choir-b {
+    background-color: rgba(45, 133, 51, 0.5);
+}
+
+th.choir-b div::before {
+    content: "Choir B";
+    /* background-color: blue; */
+    height: 100%;
+}
+
+th.cantor {
+    background-color: rgba(133, 1, 133, 0.5);;
+}
+
+th.cantor div::before {
+    content: "Cantor";
+    /* background-color: blue; */
+    height: 100%;
+}
+
+th.priest {
+    background-color: rgb(224, 224, 224, 0.5);
+}
+
+th.priest div::before {
+    content: "Priest (if present)";
+    /* background-color: blue; */
+    height: 100%;
+}

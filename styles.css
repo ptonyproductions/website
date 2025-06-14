@@ -1,0 +1,94 @@
+:root {
+    --red: #b71e17;
+    --yellow: #f4b006;
+    --green: #308637;
+    --blue: #1e15cd;
+    --bg: #44435f;
+    --fg: #acacd3;
+    --fg2: #cbcbf0;
+    --black: #12121a;
+    --black2: #242430;
+    --white: #efefff;
+    --master-width: 700px;
+}
+h1, h2 {
+    text-align: center;
+    margin: auto;
+    color: white;
+    text-shadow: 0 0 5px;
+    /* background-color: gray; */
+}
+h1 {
+    width: max-content;
+    padding: 5px 50px;
+    margin: 10px auto;
+    border-color: var(--red) var(--blue) var(--green) var(--yellow);
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px 10px 10px 0%;
+    background-color: black;
+}
+h2 {
+    background-color: black;
+}
+body {
+    /* background-color: dimgray; */
+    background-color: steelblue;
+    background-image: url('graphics/stable/swirls.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.h1-section {
+    width: 80vw;
+    /* background-color: #00000033; */
+    margin: 10px auto;
+    padding-bottom: 10;
+    
+    
+}
+.h2-section {
+    width: 95%;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin: 10px auto;
+    border-radius: 25px;
+    box-shadow: 0 0 5px;
+
+}
+.h2-section:hover {
+    background-color: rgba(0, 22, 44, 0.75);
+}
+.thumbnail {
+    
+    /* height: 100%; */
+    padding: 10 0;
+    border-radius: 25px;
+    
+}
+.thumbnail:hover {
+    outline: auto;
+}
+.winner {
+    background-color: gold;
+    width: 40%;
+}
+.second {
+    background-color: silver;
+    width: 30%;
+}
+.third {
+    background-color: sandybrown;
+    width: 20%;
+}
+.gt_table_body>tr:hover {
+    outline: auto;
+}
+.gt_table_body>tr:hover>* {
+    background-color: lightblue !important;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.463), transparent, transparent, white) !important;
+    color: black !important;
+}
+
+/* .gt_row:hover {
+    background-color: lightblue !important;
+} */

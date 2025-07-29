@@ -1,6 +1,6 @@
-git pull origin main
-*run the script on local computer*
+git checkout main           # Just to be safe
+git pull origin main        # Get latest from GitHub
+git status                  # See what changed
 git add .
-git commit -m "note about commit"
-git push origin master
-*merge master on github*
+git commit -m "Short message describing your update"
+git push origin main
